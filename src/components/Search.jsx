@@ -10,7 +10,7 @@ import {
   serverTimestamp,
   getDoc,
 } from "firebase/firestore";
-import { db } from "../firebase";
+import { db } from "../Firebase";
 import { AuthContext } from "../context/AuthContext";
 
 const Search = () => {
